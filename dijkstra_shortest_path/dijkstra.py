@@ -85,6 +85,7 @@ class Dijkstra:
 
 # driver test code
 if __name__ == '__main__':
+    print("Testing...")
     dijkstra = Dijkstra('dijkstra_data.txt')
     shortest_paths = dijkstra.find_shortest_paths(1)
     nodes = [7, 37, 59, 82, 99, 115, 133, 165, 188, 197]

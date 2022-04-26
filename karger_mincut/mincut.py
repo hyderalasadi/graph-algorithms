@@ -96,6 +96,7 @@ def find_mincut_nodes(graph, mincut_merges):
 
 # driver code
 if __name__ == "__main__":
+    print("Testing...")
     N = 100  # number of iteration, the higher the N, the lower chance of failure
     graph = read("mincut_data.txt")
     nodes = len(graph)

@@ -148,11 +148,10 @@ class Scc(object):
 
 # driver test code
 if __name__ == "__main__":
-    print("Processing...")
+    print("Testing...")
     scc = Scc("scc_data.txt")
     scc.compute_order()
     scc.find_sccs(enable_lists=True)
-    print("Testing...")
 
     # graph size test
     g_len1 = len(scc.graph)
